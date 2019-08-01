@@ -1,18 +1,15 @@
-# v2ray-SiteDAT
+# V2Ray-SiteDAT
 
-## 自定义site.dat 文件
+用于 Project V 的自定义域名文件。
 
-### 下载
+## 使用 
 
-  - https://github.com/onplus/v2ray-SiteDAT/releases
-
-### 使用：
-
-  - 修改/添加sites文件夹下的域名文件，运行 ./v2sitedat 生成geosite.dat
-    
-  - 更多参考 ./v2sitedat --help 
+下载 geofiles 文件夹中的 .dat 域名文件放到 V2Ray 的资源目录中，域名文件的标签及标签对应的域名见同名文件夹下的文件，在V2Ray 配置中按标签设定路由规则。
 
 
-**改自 https://github.com/v2ray/ext/tree/master/tools/geosites**
+## 致谢
 
-**规则参考 https://github.com/h2y/Shadowrocket-ADBlock-Rules**
+https://github.com/onplus/v2ray-SiteDAT 提供了转换成的域名文件的工具
+
+https://github.com/h2y/Shadowrocket-ADBlock-Rules 提供了域名。
+
